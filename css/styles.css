@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
+    background-color: black;
+    color: honeydew;
+}
+/* Arreglos menu superior*/
+.top_menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  background-color: rgba(192, 192, 192, 0.541);
+}
+.top_menu li{
+    display: inline;
+    
+}
+.top_menu li a{
+    text-decoration: none;
+    display: inline;
+    color: blueviolet;
+    padding-right: 5px;
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+
+.top_menu li a:hover{
+    font-size: 25px;
+    border: 1px black; 
+    color: blue;
+}
+
+/* Arreglos navegacion superior*/
+.head_contenedor{
+    scroll-padding-top: 20px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1080px;
+    flex-wrap: wrap;
+}
+
+.head_contenedor .logo{
+    padding-right: 5px;
+}
+.head_contenedor .logo img{
+    width: 100px;
+}
+.head_contenedor .head_banner img{
+    width: 400px;
+    height: 100px;
+}
